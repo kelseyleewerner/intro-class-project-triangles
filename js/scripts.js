@@ -1,9 +1,14 @@
 var triangleCheck = function(sideA, sideB, sideC) {
   if ((sideA === sideB) && (sideB === sideC)) {
-    return true;
+    return "equilateral";
   }
+
+  else if ((sideA === sideB) || (sideB === sideC) || (sideA === sideC)) {
+    return "isosceles";
+  }
+
   else {
-    return false;
+    return "not a triangle";
   }
 };
 
