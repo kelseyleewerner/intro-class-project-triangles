@@ -7,6 +7,10 @@ var triangleCheck = function(sideA, sideB, sideC) {
     return "isosceles";
   }
 
+  else if ((sideA + sideB > sideC) && (sideB + sideC > sideA) && (sideA + sideC > sideB)) {
+    return "scalene";
+  }
+
   else {
     return "not a triangle";
   }

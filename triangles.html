@@ -8,14 +8,27 @@
     <title>Triangle Identification</title>
   </head>
   <body>
+    <div class="container">
 
+      <h1>Is it a triangle?</h1>
+      <p>Enter in the length of all 3 sides to find out:</p>
 
+      <form id="triangleForm">
+        <div class="form-group">
+          <label for="sideA">Side One:</label>
+          <input id="sideA" type="text">
+          <label for="sideB">Side Two:</label>
+          <input id="sideB" type="text">
+          <label for="sideC">Side Three:</label>
+          <input id="sideC" type="text">
+        </div>
+        <button type="submit" class="btn">Let's see!</button>
+      </form>
 
+      <div id="result">
+        <p>It is <span class=triangleType></span> triangle!</p>
+      </div>
 
-
-
-
-
-
-  </body>  
+    </div>
+  </body>
 </html>
