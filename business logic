@@ -1,0 +1,9 @@
+Behavior                        Input     Output
+Equilateral (3 equal sides)     3x3x3     True
+
+Isosceles (2 equal sides)       3x3x2     True
+
+Scalene (no equal sides)        4x3x2     True
+
+Not a triangle                  3x2x1     False
+(a + b < or = c)
